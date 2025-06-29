@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wdth@12..72,114.8&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.navBar img {
+  height: 20px;
+  border: 2px solid #800f2f;
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 3rem;
+}
+
+#media {
+  padding: 30px;
+  margin-top: 5rem;
+}
+
+.main {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 3rem;
+  align-items: center;
+}
+
+.options {
+  color: black;
+  text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+.options:hover {
+  transform: scale(1.1);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+}
+
+.msg p {
+  font-size: 2.4rem;
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 114.8;
+  margin-right: 10rem;
+}
+
+.call {
+  background-color: #2d6a4f;
+  color: white;
+  height: 3rem;
+  width: 12rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.call:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#call-btn {
+  background-color: #2d6a4f;
+  border: none;
+  font-size: 1rem;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 8px;
+}
+
+.social-media {
+  margin-left: 1rem;
+  transition: all 0.4s ease;
+}
+
+.social-media:hover {
+  transform: scale(1.2);
+}
+
+img {
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 65vw;
+  top: 12rem;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 10rem;
+  height: 20rem;
+}
+
+.text-on-img {
+  position: absolute;
+  top: 18rem;
+  left: 17rem;
+}
+
+.profile #name {
+  font-size: 70px;
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #95d5b2;
+}
+
+.profile #designation {
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #1b4332;
+}
+
+.profile #punch-line {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: larger;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.info .head {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: larger;
+}
+
+.info .ans {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#social {
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #081c15;
+  padding: 10px;
+}
+
+.content #projects {
+  font-size: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #081c15;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.project-list {
+  text-align: center;
+}
+
+.project-list ol {
+  display: inline-block;
+}
+
+.project-list ol li a {
+  color: #081c15;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.content ol li {
+  transition: all 0.5s ease;
+  border: 2px solid black;
+  list-style-type: none;
+  width: 25rem;
+  border-radius: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: larger;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.content ol li:hover {
+  background-color: #1b4332;
+
+  a {
+    color: #d8f3dc;
+  }
+
+  transform: scale(1.1);
+}
