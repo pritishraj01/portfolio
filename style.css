@@ -151,8 +151,9 @@ img {
 @media(max-width:700px) {
   img {
     position: absolute;
-    left: 25vw;
-    top: 6vh;
+    left: 15vw;
+    top: 8vh;
+    height: 18rem;
   }
 }
 
