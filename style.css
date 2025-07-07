@@ -315,6 +315,7 @@ img {
   }
 }
 
+
 .content ol li {
   transition: all 0.5s ease;
   border: 2px solid black;
@@ -342,6 +343,15 @@ img {
     color: #d8f3dc;
   }
 
+  transform: scale(1.1);
+}
+
+.content ol .git{
+  width: 3rem;
+border-radius: 50%;
+}
+
+.content ol .git:hover{
   transform: scale(1.1);
 }
 
